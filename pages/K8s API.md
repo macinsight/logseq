@@ -1,8 +1,0 @@
-- Is central component of Cluster, used by all components in the K8s Cluster
-	- e.g by [[kubectl]]
-- Is frontend for k8s control plane
-- Is responsible for:
-	- validating and processing API requests
-	- maintaining cluster state
-	- handling of resources
-		- e.g. pods, services, replication controllers etc.

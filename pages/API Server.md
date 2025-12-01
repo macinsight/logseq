@@ -1,4 +1,0 @@
-- Component of #[[K8s control plane]]
-- Exposes the [[K8s API]]
-- Only component of K8s control plane that interacts with _all other_ [[Control Plane]] , e.g. [[Scheduler]], [[etcd]], [[Controller Manager]] etc.
--

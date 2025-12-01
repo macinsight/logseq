@@ -1,2 +1,0 @@
-- [[CKA Exam Notes]]
--
