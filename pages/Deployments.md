@@ -1,0 +1,11 @@
+- Overview:
+- Key concepts
+	- [[ReplicaSets]]
+	- [[Rollouts]]
+	- [[Reconciliation loop]]
+- Commandstttt
+	- `kubectl create deploy`...
+	- `kubectl rollout history`
+- Troubleshooting
+	- `kubectl describe rs`
+	- check events

@@ -1,0 +1,16 @@
+- ![Diagram illustrating a Kubernetes architecture with two sections. The top section shows a control plane/master node containing components like Cloud Controller Manager, Scheduler, API Server, Controller Manager, and ETCD. It connects to two worker nodes, each with Kube-Proxy, Kubelet, and Pods. The bottom section mirrors the top, emphasizing the same components and connections. The diagram highlights interactions between the control plane and worker nodes, with client access points. Key terms: Kubernetes, control plane, master node, worker node, API server, scheduler, ETCD, Kubelet, Kube-Proxy, Pods.](http://localhost:5000/api/book/192/book-resources?file=..%2Fimages%2F644369_1_En_2_Chapter%2F644369_1_En_2_Fig1_HTML.jpg)
+	- **Architecture Overview**
+		- ** [[Control Plane]] **: Manages cluster state and makes global decisions
+			- [[API Server]] : central communication point, manages REST API requests
+			- [[Scheduler]] : places pods on nodes
+			- Controller manager: maintains state
+			- Cloud Controller Manager: cloud provider integration
+			- etcd: cluster state storage, is distributed k/v store
+		- **Worker nodes**: Execute application workloads, implement networking policies
+			- Kubelet: manages pods on worker node
+			- kube-proxy: networking and service routing
+			- CRI: (Container Runtime Interface): runs containers
+			- Pods: Run app workloads
+		- **Client**: Human, ideally, interacting with API server to manage cluster
+	- **Node**: Machine providing k8s components and connected to k8s cluster
+	-
