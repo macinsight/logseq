@@ -1,0 +1,7 @@
+- Containerization is a result of microservices becoming more adaptable
+- Simple containers generate problems with:
+	- Rapid development
+	- seamless integration
+- Container management can face the following operations problems in comparison with k8s:
+	- Container Failures
+	-
